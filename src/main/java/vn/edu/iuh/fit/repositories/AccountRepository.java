@@ -40,7 +40,6 @@ public class AccountRepository {
                 grantAccessRepository.insert(grantAccess);
             });
 
-
             trans.commit();
         } catch (Exception exception) {
             trans.rollback();
